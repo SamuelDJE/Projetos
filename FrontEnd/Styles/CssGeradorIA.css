@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ffffff;
+    color: #e4e4e7;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 40px;
+    color: #090909;
+    font-weight: bold;
+}
+span{
+    color: rgb(24, 35, 158);
+}
+p{
+    color: #717171;
+    padding: 10px;
+}
+textarea{
+    resize: none;
+    /* Bloqueia o tamanho que antes era responsivel e fica em um tamanho definido usando o atributo "Rows" */
+    width: 100%;
+    max-width: 600px;
+    padding: 16px;
+    border: 1px solid #27272a;
+    border-radius: 10px;
+    background: #141419;
+    color: #fafafa;
+    outline: none;
+}
+button{
+    width: 100%;
+    max-width: 600px;
+    color: #fafafa;
+    background: rgb(24, 35, 158);
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
