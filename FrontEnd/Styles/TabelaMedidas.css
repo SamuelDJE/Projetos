@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-.centralizador{
+body{
+    background: #fff8ea;
+    color:  #27272a;
+    padding: 60px;
     display: flex;
+    flex-direction: column;
+    
 }
