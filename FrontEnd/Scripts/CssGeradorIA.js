@@ -1,5 +1,4 @@
 let botao = document.querySelector(".botao-gerar")
-// let chave = "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"
 let endereco = "https://api.groq.com/openai/v1/chat/completions"
 
 
