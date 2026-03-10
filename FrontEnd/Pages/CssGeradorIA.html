@@ -10,20 +10,27 @@
 
 <body>
     <h1>CSS Gerado <span>com IA</span> <img src="../Imgs/tecnologia-de-ia.png" alt="IA" height="50px" width="50px"></h1>
-    
+
     <p>Descreva o que você imaginou e veja a acontecer!</p>
 
     <textarea rows="3" placeholder="EX: Bola azul girando" class="caixa-texto"></textarea>
     <!-- o rows="numero desejado" ele da o tamanho predefinido -->
-    <button class="botao-gerar">Gerar código  <img src="../Imgs/varinha-magica.png" alt="Gerador" height="20px" width="20px"></button>
-    <br>
-    <h2>Código</h2>
-    <p class="bloco-codigo"></p>
-    <br>
-    <h2>Preview</h2>
-    <iframe class="resultado-codigo"></iframe><!-- O IFRAME excuta o código -->
+    <button class="botao-gerar">Gerar código <img src="../Imgs/varinha-magica.png" alt="Gerador" height="20px"
+            width="20px"></button>
 
 
+    <div class="resultado">
+        <div>
+            <h2>Código</h2>
+            <p class="bloco-codigo"></p>
+        </div>
+        <div>
+            <h2>Preview</h2>
+            <iframe class="resultado-codigo"></iframe><!-- O IFRAME excuta o código -->
+        </div>
+    </div>
+    
+    
 
 
     <script src="../Scripts/CssGeradorIA.js"></script>
