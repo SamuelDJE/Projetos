@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar 4</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                text-decoration: none;
+                border: none;
+                background: none;
+                font-family: "Roboto", sans-serif;
+                font-size: 16px;
+                color: #000000;
+                font-weight: 400;
+            }
+            header{
+                border: 1px solid red;
+                width: 100%;
+                height: 72px;
+                padding: 16px 64px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .header-content{
+                display: flex;
+                justify-content: center;
+                align-items: end;
+                gap: 16px;
+                border: 1px solid blue;
+            }
+            .btn-wrapper{
+                display: flex;
+                justify-content: center;
+                align-items: end;
+                gap: 20px;
+                border: 1px solid blue;
+            }
+        </style>
+</head>
+
+<body>
+    <header>
+        <img src="./Company Logo.svg" alt="Company Logo">
+
+        <div class="header-content">
+            <button class="btn-wrapper"> Button</button>
+            <button><img src="./Icon.svg" alt=""></button>
+        </div>
+    </header>  
+    <div class="Nav-content">
+        <nav>
+            <a href="">Link One</a>
+            <a href="">Link Two</a>
+            <a href="">Link Three</a>
+            <div>
+                <a href="">Link Four</a>
+                <button><img src="./Chevron Down.svg" alt=""></button>
+            </div>
+        </nav>
+    </div>  
+</body>
+</html>
